@@ -9,7 +9,7 @@ st.markdown('<h1 style="text-align:center;">Laundry App</h1>', unsafe_allow_html
 image = Image.open('img-selfservicelaundry.jpg')
 st.image(image)
 
-berat = st.number_input('Sila isi berat (KG)', max_value=(25.00), step=(0.00))
+berat = st.number_input('Sila isi berat (berat tidak melebihi 25kg)', max_value=(25.00), step=(0.00))
 trigger = True
 
 if berat > 0:
