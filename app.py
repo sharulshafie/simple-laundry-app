@@ -25,7 +25,7 @@ st.text(f"Wang yang dimasukkan: RM {wang}")
 
 if wang > wangPay:
     wangBalance = wang - wangPay
-    st.text(f"Wang yang dimasukkan: RM {wangBalance}")
+    st.text(f"Baki: RM {wangBalance}")
 
 suhu = st.selectbox('Sila masukkan suhu', ('Sejuk', 'Suam', 'Panas'), disabled=trigger)
 
